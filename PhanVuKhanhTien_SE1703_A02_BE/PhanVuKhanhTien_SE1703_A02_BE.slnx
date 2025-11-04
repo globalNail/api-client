@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="API/API.csproj" />
+    <Project Path="BLL/BLL.csproj" Id="8a159ee8-2789-4f49-ab88-ee9d09bf3b75" />
+    <Project Path="DAL/DAL.csproj" Id="0b3022ad-3b28-4feb-ad2e-4112ae9dcd58" />
+  </Folder>
+</Solution>
