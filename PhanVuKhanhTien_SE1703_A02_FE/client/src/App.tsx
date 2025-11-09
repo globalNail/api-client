@@ -1,14 +1,13 @@
+import { RouterProvider } from 'react-router'
 import './App.css'
-import { Button } from '@heroui/button'
+import router from './routes/index'
 
 function App() {
 
   return (
-    <div>
-      <Button>
-        HeroUIButton
-      </Button>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   )
 }
 
